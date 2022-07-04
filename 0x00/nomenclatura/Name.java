@@ -1,3 +1,7 @@
+import java.net.URL;
+import java.util.Date;
+import java.util.List;
+
 public class Name {
 
     public Date modifiedDate;
@@ -13,7 +17,7 @@ public class Name {
     public class TableRepresent {};
     public void saveCar(){};
 
-    public saveUser(){}; saveAccount(){}; saveContract(){};
+    public void saveUser(){}; void saveAccount(){}; void saveContract(){};
 
     public final int DAYS_IN_YEAR = 360;
     public final int HOURS_IN_WEEK = 168;
